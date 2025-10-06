@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import beatdrop from "@/public/beatdrop.png";
 import { SiInstagram } from "@icons-pack/react-simple-icons";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -9,9 +10,9 @@ const Footer = () => {
       <div>
         <Image src={beatdrop} alt="Beatdrop" className="w-1/3" />
       </div>
-      <div>
+      <Link href="https://www.instagram.com/beatdrop.live/">
         <SiInstagram size={32} />
-      </div>
+      </Link>
     </div>
   );
 };
