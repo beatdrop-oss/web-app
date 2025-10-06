@@ -1,12 +1,3 @@
-import React from "react";
+import Home from "@/components/home";
 
-const Page = () => {
-  return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <p>Beatdrop</p>
-      <p>Coming Soon...</p>
-    </div>
-  );
-};
-
-export default Page;
+export default Home;
