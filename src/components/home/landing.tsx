@@ -5,14 +5,15 @@ import Link from "next/link";
 
 const Landing = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="relative flex flex-col items-center justify-center min-h-screen text-center text-white">
       <Image
         src={gradient}
         alt="Background"
         fill
-        className="absolute top-0 left-0 w-screen -z-10 overflow-hidden object-cover object-top"
+        priority
+        className="absolute inset-0 -z-10 object-cover object-top"
       />
-      <Image src={beatdrop} alt="Beatdrop" className="w-1/4" />
+      <Image src={beatdrop} alt="Beatdrop" className="w-1/3 sm:w-1/4" />
 
       <div className="font-outfit text-2xl mt-2 mb-4">
         Hear the world from another perspective
