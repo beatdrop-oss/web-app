@@ -11,9 +11,8 @@ const Landing = () => {
         alt="Background"
         fill
         priority
-        className="absolute inset-0 -z-10 overflow-hidden object-cover object-top"
+        className="absolute inset-0 -z-10 object-cover object-top"
       />
-       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent via-[#3c457b]/40 to-[#2a536c]/70" />
       <Image src={beatdrop} alt="Beatdrop" className="w-1/3 sm:w-1/4" />
 
       <div className="font-outfit text-2xl mt-2 mb-4">
